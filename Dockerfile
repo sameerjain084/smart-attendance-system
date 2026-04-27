@@ -1,19 +1,16 @@
-FROM python:3.11-slim
+FROM python:3.11-slim-bookworm
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-# Install system dependencies required for OpenCV and dlib
+# Install system dependencies required for dlib (and minimal for opencv)
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
     libopenblas-dev \
     liblapack-dev \
-    libx11-dev \
-    libgtk-3-dev \
     python3-dev \
-    libgl1-mesa-glx \
     libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
