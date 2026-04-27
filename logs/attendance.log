@@ -1,0 +1,48 @@
+2026-04-25 12:00:07,201 - attendance_system - INFO - GET / - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:00:19,979 - attendance_system - INFO - POST /login - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:00:19,979 - attendance_system - INFO - Login attempt - Type: student - User: S001 - IP: 127.0.0.1
+2026-04-25 12:00:20,075 - attendance_system - WARNING - Login failed - invalid credentials - User: S001 - IP: 127.0.0.1
+2026-04-25 12:00:21,564 - attendance_system - INFO - POST /login - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:00:21,564 - attendance_system - INFO - Login attempt - Type: student - User: S001 - IP: 127.0.0.1
+2026-04-25 12:00:21,653 - attendance_system - WARNING - Login failed - invalid credentials - User: S001 - IP: 127.0.0.1
+2026-04-25 12:00:21,781 - attendance_system - INFO - POST /login - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:00:21,781 - attendance_system - INFO - Login attempt - Type: student - User: S001 - IP: 127.0.0.1
+2026-04-25 12:00:21,869 - attendance_system - WARNING - Login failed - invalid credentials - User: S001 - IP: 127.0.0.1
+2026-04-25 12:01:29,785 - attendance_system - INFO - POST /login - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:01:29,785 - attendance_system - INFO - Login attempt - Type: student - User: S001 - IP: 127.0.0.1
+2026-04-25 12:01:29,872 - attendance_system - INFO - Student login successful - User: S001 - IP: 127.0.0.1
+2026-04-25 12:01:29,881 - attendance_system - INFO - GET /student_dashboard - User: S001 - IP: 127.0.0.1
+2026-04-25 12:01:29,932 - attendance_system - INFO - GET /get_attendance - User: S001 - IP: 127.0.0.1
+2026-04-25 12:01:39,415 - attendance_system - INFO - GET /get_face_status - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:01,415 - attendance_system - INFO - POST /register_face - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:03,712 - attendance_system - INFO - POST /register_face - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:06,645 - attendance_system - INFO - POST /register_face - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:09,125 - attendance_system - INFO - POST /register_face - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:11,379 - attendance_system - INFO - POST /register_face - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:13,859 - attendance_system - INFO - POST /register_face - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:15,948 - attendance_system - INFO - POST /register_face - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:25,723 - attendance_system - INFO - GET /logout - User: S001 - IP: 127.0.0.1
+2026-04-25 12:02:25,727 - attendance_system - INFO - GET / - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:02:32,937 - attendance_system - INFO - POST /login - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:02:32,937 - attendance_system - INFO - Login attempt - Type: faculty - User: F001 - IP: 127.0.0.1
+2026-04-25 12:02:33,020 - attendance_system - INFO - Faculty login successful - User: F001 - IP: 127.0.0.1
+2026-04-25 12:02:33,027 - attendance_system - INFO - GET /faculty_dashboard - User: F001 - IP: 127.0.0.1
+2026-04-25 12:02:42,925 - attendance_system - INFO - POST /mark_attendance - User: F001 - IP: 127.0.0.1
+2026-04-25 12:03:24,011 - attendance_system - INFO - POST /mark_attendance - User: F001 - IP: 127.0.0.1
+2026-04-25 12:03:25,378 - attendance_system - INFO - POST /mark_attendance - User: F001 - IP: 127.0.0.1
+2026-04-25 12:03:26,764 - attendance_system - INFO - POST /mark_attendance - User: F001 - IP: 127.0.0.1
+2026-04-25 12:03:27,363 - attendance_system - INFO - POST /mark_attendance - User: F001 - IP: 127.0.0.1
+2026-04-25 12:03:33,094 - attendance_system - INFO - GET /check_session - User: F001 - IP: 127.0.0.1
+2026-04-25 12:03:38,524 - attendance_system - INFO - GET /logout - User: F001 - IP: 127.0.0.1
+2026-04-25 12:03:38,529 - attendance_system - INFO - GET / - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:03:48,122 - attendance_system - INFO - POST /login - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:03:48,123 - attendance_system - INFO - Login attempt - Type: student - User: S001 - IP: 127.0.0.1
+2026-04-25 12:03:48,197 - attendance_system - WARNING - Login failed - invalid credentials - User: S001 - IP: 127.0.0.1
+2026-04-25 12:03:59,441 - attendance_system - INFO - POST /login - User: Unknown - IP: 127.0.0.1
+2026-04-25 12:03:59,442 - attendance_system - INFO - Login attempt - Type: student - User: S001 - IP: 127.0.0.1
+2026-04-25 12:03:59,515 - attendance_system - INFO - Student login successful - User: S001 - IP: 127.0.0.1
+2026-04-25 12:03:59,522 - attendance_system - INFO - GET /student_dashboard - User: S001 - IP: 127.0.0.1
+2026-04-25 12:03:59,572 - attendance_system - INFO - GET /get_attendance - User: S001 - IP: 127.0.0.1
+2026-04-25 12:03:59,679 - attendance_system - INFO - GET /get_face_status - User: S001 - IP: 127.0.0.1
+2026-04-25 12:04:08,952 - attendance_system - INFO - GET /logout - User: S001 - IP: 127.0.0.1
+2026-04-25 12:04:08,956 - attendance_system - INFO - GET / - User: Unknown - IP: 127.0.0.1
