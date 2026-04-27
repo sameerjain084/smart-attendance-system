@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: smart-attendance-system
+    env: docker
+    region: oregon
+    plan: free
+    branch: main
+    dockerCommand: gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 120 app:app
